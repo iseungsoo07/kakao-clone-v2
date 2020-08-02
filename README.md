@@ -1,2 +1,3 @@
-# kakao-clone-v2
-Kakao Clone 2020 Update.
+# Kakao Clone 2020 update
+
+CSS got so much better!

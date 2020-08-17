@@ -101,10 +101,12 @@
    padding: 5px 25px;
    box-sizing: border-box;
    align-items: center;
+   transition: all 0.3s ease-in-out;
 }
 
 .reply .reply__column:first-child {
    width: 10%;
+   transition: all 0.3s ease-in-out;
 }
 
 .reply .reply__column:last-child {
@@ -118,6 +120,7 @@
    width: 100%;
    border: var(--main-border);
    border-radius: 20px;
+   transition: all 0.3s ease-in-out;
 }
 
 .reply__column:last-child > i,
@@ -151,4 +154,25 @@
 .reply__column button:focus,
 .reply__column button:active {
    outline: none;
+}
+
+.reply .reply__column:first-child,
+.reply .fa-smile-wink,
+.reply button {
+   transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-smile-wink,
+.reply:focus-within button {
+   opacity: 0;
+}
+
+.reply input:focus {
+   width: 90vw;
+   transform: translateX(-13%) translateY(-80px);
+}
+
+.reply:focus-within {
+   transform: translateY(80px);
 }

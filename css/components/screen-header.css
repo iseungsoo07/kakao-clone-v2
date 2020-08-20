@@ -6,6 +6,10 @@
    margin-bottom: 15px;
 }
 
+.alt-header__column span {
+   cursor: pointer;
+}
+
 .screen-header__title {
    font-size: 32px;
    font-weight: 600;
@@ -13,6 +17,7 @@
 
 .screen-header__icons span {
    margin-left: 25px;
+   cursor: pointer;
 }
 
 @keyframes rotateCog {

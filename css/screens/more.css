@@ -2,6 +2,10 @@
    margin-top: 25px;
 }
 
+.more-screen .icon-row {
+   margin-top: 40px;
+}
+
 .more-suggestions {
    margin-top: 50px;
    border-top: var(--main-border);
